@@ -29,9 +29,12 @@ export default function BarraNav() {
                 >
                    Tipos Equipos
                 </NavLink>
-                <li className="nav-item">
-                    <a className="nav-link disabled">Inventario</a>
-                </li>
+                <NavLink 
+                    className="nav-item nav-link"
+                    to='/inventarios'
+                >
+                  Inventario
+                </NavLink>
             </ul>
             </div>
         </div>

@@ -113,6 +113,7 @@ export default function Estado() {
   return (
     <div className='container'>
       <button 
+        onClick={resetEstado}
         type="button" 
         className="btn btn-outline-primary"
         data-bs-toggle="modal" 

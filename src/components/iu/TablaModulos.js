@@ -35,15 +35,16 @@ export default function TablaModulos({componentes, openEditById}) {
                     data={est._id}
                     onClick={openEditById}
                   >
-                    <i className="fa-solid fa-pen-to-square"></i>
-                    -
+                    <i className="fa-solid fa-pen-to-square" data={est._id}
+                    onClick={openEditById}></i>
+                    
                   </button>
                   <button 
                     type="button" 
                     className="btn btn-outline-danger"
                   >
                     <i className="fa-solid fa-trash"></i>
-                    -
+                    
                   </button>
                 </td>
                 <td></td>
